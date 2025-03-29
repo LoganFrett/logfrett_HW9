@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Title Here</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <form action="logfrett_ty.html" method="get" class="container mt-4">
+      <h1>Business Analytics Student Survey</h1>
+
+      <p>I am finishing my</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="year"
+          id="year1"
+          value="1st"
+          required
+        />
+        <label class="form-check-label" for="year1">First year at Iowa</label>
+      </div>
+      <!-- Repeat for other years -->
+
+      <p>BAIS core classes I have completed</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="class1"
+          name="classes"
+          value="Information Systems"
+        />
+        <label class="form-check-label" for="class1">Information Systems</label>
+      </div>
+      <!-- Repeat for other classes -->
+
+      <button class="btn btn-success mt-3" type="submit">Finish</button>
+    </form>
+  </body>
+</html>
